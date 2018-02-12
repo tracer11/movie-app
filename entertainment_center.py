@@ -15,13 +15,29 @@ avatar = media.Movie("Avatar",
 
 
 interstellar = media.Movie("Interstellar",
-                            "A team goes to another galaxy to find a earth 2,0",
+                            "A team goes to another galaxy to find a earth 2.0",
                             "http://www.joblo.com/posters/images/full/interstellar-mcconaughey.jpg",
                             "https://www.youtube.com/watch?v=0vxOhd4qlnA")
 
+dunkirk = media.Movie("Dunkirk",
+                      "A story of British soldiers being rescued from the surrounding Nazi soldiers",
+                      "https://images-na.ssl-images-amazon.com/images/I/410yY%2BU925L.jpg",
+                      "https://www.youtube.com/watch?v=F-eMt3SrfFU"
+                      )
+
+fury = media.Movie("Fury",
+                  "A story about a American Tank Squad",
+                  "http://www.joblo.com/posters/images/full/fury-poster-new.jpg",
+                  "https://www.youtube.com/watch?v=-OGvZoIrXpg")
+
+hangover = media.Movie("The Hangover",
+                      "A group of friends have a crazy adventure in Vegas",
+                      "http://www.togomeetings.com/wp-content/uploads/2017/08/luxury-hangover-poster-and-modern-of-delhi-belly-poster-is-copied-from-the-hangover-posters-4.jpg",
+                      "https://www.youtube.com/watch?v=tcdUhdOlz9M")
 
 
-movies = [toy_story, avatar, interstellar]
+
+movies = [toy_story, avatar, interstellar, dunkirk, fury, hangover]
 fresh_tomatoes.open_movies_page(movies)
 
 
