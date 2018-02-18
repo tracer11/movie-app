@@ -1,6 +1,6 @@
 import media
 import fresh_tomatoes
-
+#movie instance creation
 toy_story = media.Movie("Toy Story", 
                         "A story of toys that come to life",
                         "https://ohmy.disney.com/wp-content/uploads/2014/01/toy-story-poster.jpg",
@@ -38,6 +38,7 @@ hangover = media.Movie("The Hangover",
 
 
 movies = [toy_story, avatar, interstellar, dunkirk, fury, hangover]
+#uses the fresh_tomatoes file to make movies appear on the webpage
 fresh_tomatoes.open_movies_page(movies)
 
 
